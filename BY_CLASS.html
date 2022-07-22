@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+BY_CLASS
+</title>
+<style>
+body{
+    text-transform: capitalize;
+    background-color: grey;
+    text-align: center;
+}
+.style{
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    padding: 50px 0px;
+    margin: 50px;
+}
+</style>
+    </head>
+    <body>
+        <div class="style">
+            <h3>
+                here is an example of getting an element using its class
+            </h3>
+            <p class="ex1">hello</p>
+            <p class="ex1">hello</p>
+            <script>
+                let ex = document.getElementsByClassName("ex1")
+                ex[0].innerHTML="hii"
+            </script>
+        </div>
+
+    </body>
+</html>
